@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP scripting</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Personal Details</h2>
+
+    <form>
+        <div class="firstName">
+            <p>FirstName</p>
+            <input type="Text" name="Firstname" size="20" maxlength="20">
+        </div>
+        <div class="lastName">
+            <p>LastName</p>
+            <input type="Text" name="Surname" size="20" maxlength="20">
+        </div>
+        <div class="Age">
+            <p>Age</p>
+            <input type="radio" name="age" value="under 25" checked>
+            <25 <input type="radio" name="age" value="25 To 40"> 25-40
+                <input type="radio" name="age" value="over 40">
+                <40 <input type="radio" name="age" value="over 15"> Rather not say
+        </div>
+        <div id="Food">
+            <p>Favourite Food:</p>
+        </div>
+        <div id="firstCount">
+            <select name="favFood" required>
+                    <option value="lowest">Italian</option>
+                    <option value="second">Indian</option>
+                    <option value="third">Thai</option>
+                    <option value="most">Chinese</option>
+                </select>
+        </div>
+        <div id="secondCount">
+            <select name="NewFav" required>
+                <option value="lowest">Spanish</option>
+                <option value="second">French</option>
+                <option value="third">American</option>
+                <option value="most">Vietnamese</option>
+            </select>
+        </div>
+        <br>
+
+        <textarea type="message" rows="5" cols="45" maxlength="500">Enter a new cooking techniqe</textarea>
+
+        <br>
+        <input type="submit" onclick="alert('Form Entered')" value="submit">
+        <br>
+        <p>Please rate the following from 1=poor To 5= excellent</p>
+    </form>
+</body>
+
+</html>
